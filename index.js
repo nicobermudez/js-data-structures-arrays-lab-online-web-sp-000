@@ -3,5 +3,5 @@
 const drivers = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendDriver(name) {
-  drivers.splice(0, name)
+  drivers.splice(-1, name)
 }
